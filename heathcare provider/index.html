@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Healthcare provider Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+    <h1>Search for healthcare provider </h1>
+    <form id="searchForm">
+        <label for="name">Enter a name of healthcare:</label>
+        <input type="text" name="name"  pattern="[A-Za-z]{20}" title="healthcare provider maximum letter reached" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="schoolList" class="hidden"></div>
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
